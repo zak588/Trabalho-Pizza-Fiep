@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PizzaFiep</title>
-    <link rel ="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
     <header class="header">
@@ -14,7 +14,6 @@
             <span></span>
             <span></span>
             <span></span>
-             
         </div>
 
         <nav class="menu" id="menu">
@@ -25,26 +24,71 @@
         </nav>
     </header>
     <div class="overlay-menu" id="overlay"></div>
-     <section class="diferenciais">
-        <h2>Nossos diferenciais</h2>
-        <div class="card">
-        <img src="./tomate.png" alt="Fogueira">
-        <p>Forno a lenha</p>
+    <!-- HERO -->
+     <section class="hero">
+        <div class="overlay">
+            <div class="hero-text">
+                <h2>A melhor indústria<br>de pizza do<br> Brasil</h2>
+                <button>Peça Agora</button>
+            </div>
         </div>
-        <div class="card">
-            <img src="./fogo.png" alt="Fogueira">
-            <p>Forno a Lenha</p>
-        </div>
-        <div class="card">
-            <img src="./queijo.png" alt="queijo">
-            <p>Mussarela Artesanal</p>
-        </div>
-        <div class="card">
-            <img src="./relampago.png" alt="">
-        </div>
-
      </section>
-     <script src="script.js"></script>
+
+    <section class="diferenciais">
+        <h2>Nossos diferenciais</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./tomate.png" alt="tomate">
+                <p>Igredientes Frescos</p>
+            </div>
+            <div class="card">
+                <img src="./fogo.png" alt="Fogueira">
+                <p>Forno a Lenha</p>
+            </div>
+            <div class="card">
+                <img src="./queijo.png" alt="Queijo">
+                <p>Mussarela Artesenal</p>
+            </div>
+            <div class="card">
+                <img src="./relampago.png" alt="Raio">
+                <p>Entrega rápida</p>
+            </div>
+        </div> 
+    </section>
+    <section class="Cardápio">
+        <h2>Cardápio</h2>
+        <div class="lista">
+            <ul data-title=" Tradicional ">
+                <li>Calabresa</li>
+                <li>Frango c/ Catupiri</li>
+                <li>Portuguesa</li>
+                <li>Marguerita</li>
+                <li>4 Queijos</li>
+                <li>Bacon</li>
+                <li>Napolitana</li>
+                <li>Chocolate</li>
+            </ul>
+            <ul data-title=" Especiais ">
+                <li>Camarão c/ Catupiri</li>
+                <li>Carne Seca c/ Cream Cheese</li>
+                <li>Filé Mignon c/ Cheddar</li>
+                <li>Strogonnof de Frango ou Carne</li>
+                <li>Picanha</li>
+                <li>5 Queijos</li>
+                <li>6 Queijos</li>
+            </ul>
+            <ul data-title=" Doce ">
+                <li>Chocolate Branco</li>
+                <li>Prestígio c/ Nutella</li>
+                <li>Romeu e Julieta</li>
+                <li>Banana c/ Canela</li>
+                <li>Banana Nevada</li>
+            </ul>
+        </div>
+    </section>
     
+
+
+    <script src="script.js"></script>
 </body>
 </html>
