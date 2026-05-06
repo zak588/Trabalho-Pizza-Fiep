@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PizzaFiep</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <header class="header">
+        <h1 class="logo">Pizza Fiep</h1>
+
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+
+        <nav class="menu" id="menu">
+            <a href="#">Home</a>
+            <a href="#">Cardápio</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </nav>
+    </header>
+    <div class="overlay-menu" id="overlay"></div>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="overlay">
+            <div class="hero-text">
+                <h2>A melhor indústria<br>de pizza do<br> Brasil</h2>
+                <button>Peça Agora</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="diferenciais">
+        <h2>Nossos diferenciais</h2>
+        <div class="cards">
+            <div class="card">
+                <img src="./tomate.png" alt="tomate">
+                <p>Igredientes Frescos</p>
+            </div>
+            <div class="card">
+                <img src="./fogo.png" alt="Fogueira">
+                <p>Forno a Lenha</p>
+            </div>
+            <div class="card">
+                <img src="./queijo.png" alt="Queijo">
+                <p>Mussarela Artesenal</p>
+            </div>
+            <div class="card">
+                <img src="./relampago.png" alt="Raio">
+                <p>Entrega rápida</p>
+            </div>
+        </div>
+    </section>
+    <section class="Cardápio">
+        <h2>Cardápio</h2>
+        <div class="lista">
+            <ul data-title=" Tradicional ">
+                <li>Calabresa</li>
+                <li>Frango c/ Catupiri</li>
+                <li>Portuguesa</li>
+                <li>Marguerita</li>
+                <li>4 Queijos</li>
+                <li>Bacon</li>
+                <li>Napolitana</li>
+                <li>Chocolate</li>
+            </ul>
+            <ul data-title=" Especiais ">
+                <li>Camarão c/ Catupiri</li>
+                <li>Carne Seca c/ Cream Cheese</li>
+                <li>Filé Mignon c/ Cheddar</li>
+                <li>Strogonnof de Frango ou Carne</li>
+                <li>Picanha</li>
+                <li>5 Queijos</li>
+                <li>6 Queijos</li>
+            </ul>
+            <ul data-title=" Doce ">
+                <li>Chocolate Branco</li>
+                <li>Prestígio c/ Nutella</li>
+                <li>Romeu e Julieta</li>
+                <li>Banana c/ Canela</li>
+                <li>Banana Nevada</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="sobre">
+        <div class="conteudo">
+            <h2>Sobre Nós</h2> 
+            <P>
+                    Na Pizza FIEP, acreditamos que boas histórias começam ao redor de uma mesa. Nosso espaço nasceu com
+                    a ideia de unir pessoas, sabores e momentos especiais em um ambiente acolhedor, inspirado nas
+                    tradicionais pizzarias italianas. Graças a um renomado funcionario de uma pequena empresa, que sozinho desevolvou e aperfeiçoou a receita e criou a incrivel maravilha gastronomica que é o nosso produto, assim fundando uma pizzaria em busca de trazer toda a cultura italiana.<br></P>
+            <div class="txtC">
+               
+
+                <div class="pizza">
+
+                    <img src="pizza.png" alt="pizza">
+                </div>
+                    <div class="txtL">
+                        <p> Tudo começa com ingredientes selecionados, massa preparada com cuidado e o aroma
+                            irresistível que sai do forno a lenha. Cada pizza é feita com dedicação, respeitando a
+                            tradição, mas também trazendo um toque de criatividade que torna cada experiência única.
+                            Mais do que servir pizzas, queremos criar memórias. Seja em um encontro entre amigos, uma
+                            pausa depois de um dia de trabalho ou uma comemoração especial, a Pizza FIEP é um lugar para
+                            compartilhar, conversar e aproveitar o melhor da boa comida.
+                        </p>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contato">
+        <h2>Entre em Contato</h2>
+        <div>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3603.400773036006!2d-49.27483312392745!3d-25.424861432689738!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce411bd7d31bd%3A0xd55f5236caf94127!2sR.%20Paula%20Gomes%2C%20270%20-%20S%C3%A3o%20Francisco%2C%20Curitiba%20-%20PR%2C%2080510-070!5e0!3m2!1spt-BR!2sbr!4v1777905141932!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>"
+        </div>
+        <div class="form-container">
+
+        <form Method="post"id="whatsappForm">
+            <input type="hidden" name="id" value="3">
+
+            <div class="form-group">
+                <label for="name"></label>
+                <input type="text" id="name" name="name" placeholder="Nome" required>
+            </div>
+            <div class="form-group">
+                <label for="email"></label>
+                <input type="email" name="email" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <label for="mensagem"></label>
+                <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva sua mensagem"></textarea>
+            </div>
+            <div class="form-group button">
+                <button type="submit" class="btn btn-primary w-100">Enviar</button>
+            </div>
+        </form>
+    </div>
+        
+    </section>
+
+    <footer>
+        <div>
+            <p>&copy; Augusto Rodrigues Woellner</p>
+        </div>
+        <div>
+            <p>(41) 99999-9999</p>
+            <p>R.Paula Gomes, 270, São Francisco</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+
+    </script>
+</body>
+
+</html>
